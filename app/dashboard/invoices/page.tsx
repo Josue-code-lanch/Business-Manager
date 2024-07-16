@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <h1>PAGINA DE FACTURAS</h1>
+      <h1 className="uppercase text-4xl font-semibold">Invoices page</h1>
     </>
   );
 }
