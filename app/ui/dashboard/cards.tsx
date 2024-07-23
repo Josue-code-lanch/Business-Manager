@@ -16,9 +16,9 @@ const iconMap = {
 export default async function CardWrapper() {
   const {
     numberOfInvoices,
+    numberOfCustomers,
     totalPaidInvoices,
     totalPendingInvoices,
-    numberOfCustomers,
   } = await fetchCardData();
   return (
     <>
